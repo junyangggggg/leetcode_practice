@@ -1,9 +1,5 @@
 class Solution(object):
     def plusOne(self, digits):
-        """
-        :type digits: List[int]
-        :rtype: List[int]
-        """
         lst_of_9 = []
         if digits[-1] == 9:
             for i in range(1, len(digits) + 1):
