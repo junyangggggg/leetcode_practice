@@ -1,9 +1,5 @@
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
         dic = {"I": 1, 
                "V": 5,
                "X": 10,
