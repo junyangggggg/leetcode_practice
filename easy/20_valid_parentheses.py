@@ -1,13 +1,8 @@
 class Solution(object):
     def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
         dic = {"(": ")", "[": "]", "{": "}",
                ")": "(", "]": "[", "}": "{"}
         open_b = ["(", "[", "{"]
-        close_b = [")", "]", "}"]
 
         if len(s) % 2 != 0:
             return False
